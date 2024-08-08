@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-apache-artemis-amq
+  artemis:
+    broker-url: tcp://localhost:61616
+    user: artemis
+    password: artemis
+jms:
+  queues:
+    message:
+      name: message-queue
